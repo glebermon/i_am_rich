@@ -11,8 +11,9 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image.network(
-              'https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
